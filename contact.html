@@ -3,7 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Flexbox!</title>
+    <link rel="stylesheet" href="./styles/contact.css" />
   </head>
-  <body></body>
+
+  <body>
+    <header class="cabecalho">
+      <nav>
+        <a href=""
+          ><img
+            src="https://lh3.googleusercontent.com/drive-storage/AJQWtBMk7X22sjZ4yS8iMS57uwoc8SYKkicII0gRPs34SuLV0u57sThxKqsDAGMih-G8-OICAfu6gGhJSAdjjNEP9GzDibhf-RXUsDURscqdTwsu3D0=w1899-h922"
+            alt=""
+        /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li>
+            <a id="http://127.0.0.1:5500/marketplace.html" href="#"
+              >MarketPlace</a
+            >
+          </li>
+          <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+          <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="principal">
+      <form action="">
+        <h1>Formulario de Cadastro</h1>
+
+        <div class="nomeEmail">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="nome" />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+        </div>
+        <div>
+          <label for="telefone">Telefone</label>
+          <input type="tel" name="telefone" id="telefone" />
+        </div>
+
+        <div>
+          <label for="msg">Mensagem</label>
+          <textarea name="msg" id="msg" rows="8"></textarea>
+        </div>
+
+        <div></div>
+
+        <input type="submit" value="enviar" class="btn" />
+      </form>
+    </main>
+
+    <footer class="rodape">
+      <section class="links">
+        <h3>Links</h3>
+        <a href="">Home</a>
+        <a href="">MarketPlace</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+      </section>
+
+      <section class="suporte">
+        <h3>Suporte</h3>
+        <a href="">FAQ</a>
+        <a href="">Links</a>
+      </section>
+      <section class="contato">
+        <h3>Contato</h3>
+        <p>telefone:(00)1234-1234</p>
+        <p>Email: Contatos@gmail.com</p>
+      </section>
+    </footer>
+  </body>
 </html>

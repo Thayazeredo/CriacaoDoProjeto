@@ -74,7 +74,7 @@ main {
 }
 .cards {
   width: 40%;
-  border: 5px solid red;
+  border: 3px solid red;
   border-radius: 20px;
   height: 50px;
   background-color: white;
